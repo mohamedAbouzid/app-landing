@@ -1,0 +1,201 @@
+/*custom*/
+body
+{
+    padding-top: 90px;
+    font-family: sans-serif;
+    color: #5C5C5C;
+    overflow-x: hidden;
+}
+hr
+{
+    width: 20%
+}
+img
+{
+    width: 100%
+}
+/*start navbar*/
+nav.navbar
+{
+    background-color: transparent ;
+    border: none;
+}
+a.navbar-brand img
+{
+    height: 150%;
+    width: 50%
+}
+/*end navbar*/
+/*start home*/
+div#homediv
+{
+    padding: 30px 15px
+}
+h1.mainheader
+{
+    color: #5C5C5C;
+    font-weight: 100 !important;
+    margin-bottom: 30px;
+    font-size: 30px
+}
+p.mainparagraph
+{
+    margin-bottom: 50px;
+    color: #5C5C5C !important;
+}
+div#homediv a
+{
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px 15px;
+    transition: all .5s ease-in-out;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+div#homediv i
+{
+    font-size: 30px;
+}
+/*end home*/
+/*start features*/
+section#features
+{
+    padding: 30px 10px 90px;
+    color: #5C5C5C !important;
+    
+}
+.fheader
+{
+    font-size: 30px;
+    margin-top: 30px
+}
+section#features i
+{
+    color: #4ACCD1;
+    font-size: 55px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+/*end features*/
+/*startcool features*/
+section#coolfeatures
+{
+    padding: 30px 10px 70px;
+    color: #5C5C5C !important;
+}
+section#coolfeatures h1
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px auto 90px;
+}
+section#coolfeatures p
+{
+    font-size: 16px;
+    color: #5C5C5C
+}
+section#coolfeatures ul
+{
+    list-style: none;
+    
+}
+section#coolfeatures li
+{
+    margin: 30px;
+    font-size: 30px;
+    color: #5C5C5C
+}
+section#coolfeatures i
+{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #4ACCD1;
+    color: white;
+    margin-right: 15px
+}
+/*end cool features*/
+/* start screenshots*/
+section#screenshots
+{
+    padding: 30px 10px 100px;
+}
+section#screenshots h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+div#imgs img
+{
+    width: 100%;
+}
+/*end screenshots*/
+/*start cotact us*/
+section#contactus
+{
+    padding: 30px 10px 100px
+}
+section#contactus a
+{
+    transition:  all .6s ease-in-out;
+    margin-top: 20px ;
+    display: block;
+    width: 150px;
+    padding: 10px
+}
+section#contactus hr
+{
+    width: 80% !important
+}
+/*end contact*/
+/*start footer*/
+footer
+{
+    padding-top: 60px
+}
+footer p
+{
+    display: inline;
+}
+footer span
+{
+   color: #6BD5E0; 
+}
+.socialicos i
+{
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 20px
+}
+.socialicos i:hover
+{
+    color: #6BD5E0;
+    transform: rotate(360deg)
+}
+a#totop i
+{
+    font-size: 40px;
+    color: #5C5C5C;
+    transition: all .5s ease-in-out;
+}
+a#totop i:hover
+{
+    color: #6BD5E0;
+}
+/*media */
+@media screen and (max-width:800px)
+{
+    p, h2,h1,h3
+    {
+        text-align: center
+    }
+    .btn
+    {
+        display: inline-block;
+        margin: 10px auto !important;
+    }
+    #homediv .btn {
+        display: block
+    }
+}
